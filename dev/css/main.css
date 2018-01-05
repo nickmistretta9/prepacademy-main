@@ -7842,7 +7842,8 @@ iframe[name="google_conversion_frame"] {
       .site-header .logo {
         transform: scale(0.7);
         top: -10%;
-        left: -5%; } }
+        left: -5%;
+        max-width: 150px; } }
     .site-header .logo.small {
       transform: scale(0.9);
       top: 5%; }
@@ -7930,8 +7931,8 @@ iframe[name="google_conversion_frame"] {
             width: 55%; } }
         @media screen and (max-width: 400px) {
           .site-header .flex div.form input {
-            width: 45%;
-            margin-right: -35px; } }
+            width: 50%;
+            margin-right: -15px; } }
       @media screen and (max-width: 1000px) {
         .site-header .flex div.form div:last-child {
           margin-left: -58px; } }
@@ -8078,7 +8079,7 @@ iframe[name="google_conversion_frame"] {
       flex-wrap: wrap; } }
   @media screen and (max-width: 500px) {
     .mobile-buttons {
-      margin-top: 40px;
+      margin-top: 20px;
       margin-left: -100px; } }
   .mobile-buttons .mobile-phone {
     width: 100%;
@@ -8111,13 +8112,9 @@ iframe[name="google_conversion_frame"] {
   @media screen and (max-width: 700px) {
     .mobile-buttons .mobile-toggle, .mobile-buttons .call, .mobile-buttons .email {
       align-items: flex-end; } }
-  @media screen and (max-width: 500px) {
-    .mobile-buttons .mobile-toggle, .mobile-buttons .call, .mobile-buttons .email {
-      margin-top: 20px; } }
   @media screen and (max-width: 400px) {
     .mobile-buttons .mobile-toggle, .mobile-buttons .call, .mobile-buttons .email {
       margin-left: 0px;
-      margin-top: 20px;
       padding: 0;
       flex: 1 1 5%; } }
 
@@ -9184,7 +9181,7 @@ form textarea {
           flex: 1 1 100%; } }
       @media screen and (max-width: 480px) {
         .why-prep .flex .second-third p {
-          font-size: 20px; } }
+          font-size: 18px; } }
       .why-prep .flex .second-third h3 {
         font-style: italic; }
     .why-prep .flex .sub {
@@ -9347,6 +9344,9 @@ form textarea {
         .what-we-do .wwd-list li {
           flex: 1 1 25%;
           margin-bottom: 25px; } }
+      @media screen and (max-width: 500px) {
+        .what-we-do .wwd-list li {
+          flex: 1 1 34%; } }
       .what-we-do .wwd-list li:hover {
         transform: scale(1.1); }
       .what-we-do .wwd-list li i {

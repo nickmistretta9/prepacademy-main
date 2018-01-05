@@ -35,6 +35,7 @@
 			transform:scale(0.7);
 			top:-10%;
 			left:-5%;
+			max-width:150px;
 		}
 		&.small {
 			transform:scale(0.9);
@@ -134,8 +135,8 @@
 						width:55%;
 					}
 					@include max-width(400px) {
-						width:45%;
-						margin-right:-35px;
+						width:50%;
+						margin-right:-15px;
 					}
 				}
 				div {
