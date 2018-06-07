@@ -31,13 +31,13 @@
 			}
 		}
 		@include max-width(1100px) {
-			top:40%;
+			top:34%;
 		}
 		@include max-width($screen-sm) {
-			top:45%;
+			top:40%;
 		}
 		@include max-width($screen-xs) {
-			top:60%;
+			top:50%;
 		}
 	}
 }
@@ -249,13 +249,22 @@
 				order:1;
 				flex:1 1 100%;
 			}
+			@include max-width(600px) {
+				padding:4em 5%;
+			}
 			p {
+				@include max-width(600px) {
+					font-size:20px;
+				}
 				@include max-width($screen-xs) {
 					font-size:18px;
 				}
 			}
 			h3 {
 				font-style:italic;
+				@include max-width(600px) {
+					font-size:32px;
+				}
 			}
 		}
 		.sub {
@@ -268,6 +277,9 @@
 				margin-right:10px;
 				margin-top:40px;
 				position:relative;
+				@include max-width(1100px) {
+					background-position:center;
+				}
 				i {
 					color:$brand-info;
 					position:absolute;
@@ -275,8 +287,9 @@
 					top:12px;
 					@include center(x);
 					@include max-width(1100px) {
-						margin-top:20px;
-						font-size:40px;
+						// margin-top:20px;
+						@include center();
+						font-size:50px;
 					}
 					@include max-width($screen-sm) {
 						margin-top:10px;
@@ -290,10 +303,16 @@
 					width:40px;
 					margin:5px auto;
 					display:block;
+					@include max-width(1100px) {
+						position:absolute;
+						@include center();
+						width:55px;
+					}
 				}
 			}
 			.text {
 				flex:1 1 84%;
+				padding-left:20px;
 			}
 		}
 	}
@@ -462,6 +481,28 @@
 			}
 		}
 	}
+	.btn-info {
+		margin:30px auto;
+		display:block;
+		font-size:26px;
+		border-radius:5px;
+		transition:all 0.3s ease-in-out;
+		@include max-width($screen-sm) {
+			font-size:20px;
+		}
+		a {
+			color:#fff;
+			text-decoration:none;
+			padding:20px 40px;
+			display:block;
+			@include max-width($screen-sm) {
+				padding:20px;
+			}
+		}
+		&:hover {
+			background:$brand-primary;
+		}
+	}
 }
 .map-area {
 	position:relative;
@@ -537,25 +578,78 @@
 		background-repeat:no-repeat;
 		height:80%;
 		padding:4em 6.5%;
+		@include max-width($screen-md) {
+			height:70%;
+		}
+		@include max-width($screen-sm) {
+			background-image:none;
+			background:#fff;
+			height:auto;
+			padding:20px;
+			@include center(x);
+			top:1em;
+			width:70%;
+		}
+		@include max-width(500px) {
+			width:100%;
+		}
+		.text {
+			img {
+				margin:0 auto;
+				display:block;
+				@include max-width($screen-sm) {
+					max-height:150px;
+				}
+			}
+		}
 		.search {
 			display:flex;
 			.form-control {
 				border:1px solid $brand-info;
+			}
+			::placeholder {
+				@include max-width($screen-sm) {
+					font-size:14px;
+				}
 			}
 			.btn-info {
 				margin-left:-3px;
 				border-radius:0 5px 5px 0;
 				padding:0 30px;
 				text-transform: uppercase;
+				@include max-width($screen-sm) {
+					padding:0 20px;
+				}
 			}
 		}
 	}
 	&.locations {
 		min-height:1000px;
+		padding:4em 5%;
+		@include max-width($screen-sm) {
+			display:none;
+		}
 		.location-search {
 			max-width:600px;
 			height:auto;
 			margin-top:150px;
+			.text {
+				img {
+					display:block;
+					margin:0 auto;
+				}
+			}
+			.search {
+				::placeholder {
+					font-size:14px;
+				}
+			}
+			.location-text {
+				text-align: center;
+				p {
+					font-size:20px;
+				}
+			}
 		}
 	}
 }
@@ -651,13 +745,14 @@
 			border:none;
 			color:#fff;
 			max-width:100%;
+			text-align: center;
 			&:hover {
 				background:$brand-primary;
 				color:#fff;
 			}
 			@include max-width($screen-xs) {
-				font-size:20px;
-				padding:20px 5px;
+				font-size:16px;
+				padding:20px 40px;
 			}
 		}
 	}

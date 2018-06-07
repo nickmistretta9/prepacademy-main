@@ -109,6 +109,13 @@
 		@include max-width(1000px) {
 			justify-content:flex-end;
 		}
+		form {
+			@include max-width($screen-sm) {
+				display:flex;
+				width:100%;
+				justify-content:flex-end;
+			}
+		}
 		div {
 			&:first-child {
 				.h4 {
@@ -125,6 +132,10 @@
 			}
 			&.form {
 				display:flex;
+				@include max-width($screen-xs) {
+					width:100%;
+					justify-content:flex-end;
+				}
 				input {
 					margin-left:10px;
 					color:#fff;
@@ -134,9 +145,8 @@
 					@include max-width($screen-sm) {
 						width:55%;
 					}
-					@include max-width(400px) {
-						width:50%;
-						margin-right:-15px;
+					@include max-width($screen-xs) {
+						width:80%;
 					}
 				}
 				div {
@@ -146,6 +156,9 @@
 						}
 						@include max-width($screen-sm) {
 							margin-left:-130px;
+						}
+						@include max-width($screen-xs) {
+							margin-left:-60px;
 						}
 						.btn-info {
 							font-size:24px;

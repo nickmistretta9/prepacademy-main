@@ -21,6 +21,9 @@
 		@include max-width(900px) {
 			max-width:none;
 		}
+		@include max-width(700px) {
+			padding-bottom:0;
+		}
 		.social-icons {
 			display:flex;
 			align-items:center;
@@ -207,6 +210,20 @@
 			padding:0;
 			flex:1 1 5%;
 		}
+
+		&.mobile-ctc {
+			text-decoration:none;
+			color:#fff;
+			display:flex;
+			flex-direction:column;
+			i {
+				text-align:right;
+			}	
+		}
+		.fa-bars {
+			width:100%;
+			text-align:right;
+		}
 	}
 }
 
@@ -265,7 +282,7 @@
 }
 
 .st-menu {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 100;

@@ -91,6 +91,8 @@ jQuery(document).ready(function($) {
 			$('.list.quebec').addClass('hide');
 		} else if($(this).val() === 'Quebec') {
 			$('.list.ontario').addClass('hide');
+		} else {
+			$('.list').removeClass('hide');
 		}
 	});
 
@@ -616,5 +618,22 @@ function locationFilter() {
 		}
 		console.log(shortestDistance);
 	});
+}
+
+function postalCodeFilter() {
+	var elements = document.querySelectorAll('.individual-location');
+	var searchQuery = document.getElementById('locationFilter').value.toLowerCase();
+	if(searchQuery == '') {
+		elements.forEach(function(element) {
+			element.classList.remove('hide');
+		});
+	} else {
+		elements.forEach(function(element) {
+			var postalCode = element.querySelector('.postal-code').innerHTML.toLowerCase();
+			if(postalCode != searchQuery) {
+				element.classList.add('hide');
+			}
+		});
+	}
 }
 

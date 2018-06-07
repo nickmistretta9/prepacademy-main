@@ -75,7 +75,7 @@ Template Name: Home Page
 					<div class="icon-container"><i class="fa fa-home"></i></div>
 					<div class="text">
 						<h3>Flexible In-Home Tutoring</h3>
-						<p>Our tutors come to you at the times you decide, so tutoring fits into your and your c hild's schedule.</p>
+						<p>Our tutors come to you at the times you decide, so tutoring fits into your and your child's schedule.</p>
 					</div>
 				</div>
 			</div>
@@ -157,6 +157,7 @@ Template Name: Home Page
 				<p>Enrichment Programs</p>
 			</li>
 		</ul>
+		<button class="btn-info"><a href="<?php echo home_url('/how-we-work'); ?>">Learn About How We Work</a></button>
 	</div>
 </section>
 <section class="map-area">

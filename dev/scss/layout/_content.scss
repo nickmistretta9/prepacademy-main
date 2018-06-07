@@ -400,6 +400,10 @@
 	&.testimonial-content {
 		h1 {
 			font-size:48px;
+			@include max-width($screen-sm) {
+				text-align: center;
+				font-size:42px;
+			}
 		}
 		.testimonial-box {
 			display:flex;
@@ -415,6 +419,9 @@
 					color:#fff;
 					font-size:44px;
 					font-style:normal;
+					@include max-width($screen-md) {
+						font-size:38px;
+					}
 				}
 			}
 			.info {
@@ -597,14 +604,15 @@
 				h2 {
 					flex:1 1 100%;
 					margin-bottom: 0;
-					a {
-						color:$brand-info;
-						text-decoration:none;
-						transition:all 0.3s ease-in-out;
-						&:hover {
-							color:$brand-primary;
-						}
-					}
+					color:$brand-info;
+					// a {
+					// 	color:$brand-info;
+					// 	text-decoration:none;
+					// 	transition:all 0.3s ease-in-out;
+					// 	&:hover {
+					// 		color:$brand-primary;
+					// 	}
+					// }
 				}
 				.individual-location {
 					flex:1 1 45%;

@@ -15,7 +15,7 @@
 					<a href="<?php echo home_url('/contact'); ?>">
 						<li>Contact</li>
 					</a>
-					<a href="http://franchise.prepacadtutors.wpengine.com">
+					<a href="//franchise.prepacadtutors.wpengine.com">
 						<li>Franchise Opportunities</li>
 					</a>
 					<a href="<?php echo home_url('/sitemap_index.xml'); ?>">
@@ -41,7 +41,7 @@
 				<div class="directions">
 					<h3>Address:</h3>
 					<span>201 Wicksteed Ave, Unit 12, Toronto, On, M4G 0B1</span> <br>
-					<a href="">View Map [+]</a>
+					<a href="https://goo.gl/maps/RfbAdarnbUE2" target="_blank">View Map [+]</a>
 				</div>
 				<a href="" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/dist/images/scorp-logo.png" alt=""></a>
 			</div>
@@ -55,7 +55,7 @@
 </div><!-- /st-container -->
 
 <!-- build:js js/script.min.js -->
-<script src="<?php bloginfo('template_directory'); ?>/dev/js/main.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/dist/js/script.min.js"></script>
 <!-- endbuild -->
 <!-- Google Maps API -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqTD8-lvnh9Ur-ARjyvu96SHihwsUoRDg&callback=initMap" async defer></script>
