@@ -14,12 +14,12 @@ Template Name: Contact Page
 				<div class="container-fluid">
 					<h2>Prep Academy Tutors</h2>
 					<p>Telephone: <span>888.885.3968</span></p>
-					<a href=""><div class="about-us-box">
+					<div class="about-us-box">
 						<div class="icon-container">
 							<i class="fa fa-user"></i>
 						</div>
 						<div class="learning"><a href="<?php echo home_url('/about-us'); ?>">Learn About Us</a></div>
-					</div></a>
+					</div>
 				</div>
 			</div>
 			<div class="col-sm-6">

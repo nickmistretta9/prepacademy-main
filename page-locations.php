@@ -50,7 +50,7 @@ Template Name: Locations Page
 				<h2>Ontario</h2>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors Durham</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Pickering, ON <span class="postal-code">L1W 2S2</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Pickering</span>, ON <span class="postal-code">L1W 2S2</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (226) 270-2062</div>
 						<div class="website"><a href="http://durham.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -63,7 +63,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Aurora</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Aurora, ON <span class="postal-code">L4G 6K3</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Aurora</span>, ON <span class="postal-code">L4G 6K3</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (888) 683-2083</div>
 						<div class="website"><a href="http://aurora.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -76,7 +76,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Brantford and Hamilton</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Brantford, ON <span class="postal-code">N3T 5B3</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Brantford</span>, ON <span class="postal-code">N3T 5B3</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (226) 778-7517</div>
 						<div class="website"><a href="http://brantford-hamilton.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -89,7 +89,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Burlington</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Burlington, ON <span class="postal-code">L7L</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Burlington</span>, ON <span class="postal-code">L7L</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (888) 310-9334</div>
 						<div class="website"><a href="http://burlington.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -102,7 +102,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors East Toronto</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON <span class="postal-code">M4S 1J7</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M4S 1J7</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (647) 697-6446</div>
 						<div class="website"><a href="http://east-toronto.prepacadtutors.wpengine.com" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -115,7 +115,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Markham</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Markham, ON <span class="postal-code">L3P</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Markham</span>, ON <span class="postal-code">L3P</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (888) 823-2031</div>
 						<div class="website"><a href="http://markham.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -128,7 +128,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Midtown Toronto</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON <span class="postal-code">M4S 1A9</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M4S 1A9</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (647) 360-8874</div>
 						<div class="website"><a href="http://midtown-toronto.prepacadtutors.wpengine.com" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -141,7 +141,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Mississauga</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Mississauga, ON <span class="postal-code">L4T</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Mississauga</span>, ON <span class="postal-code">L4T</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (888) 791-1296</div>
 						<div class="website"><a href="http://mississauga.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -154,7 +154,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Newmarket</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Newmarket, ON <span class="postal-code">L3Y</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Newmarket</span>, ON <span class="postal-code">L3Y</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (289) 803-3818</div>
 						<div class="website"><a href="http://newmarket.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -167,7 +167,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of North Toronto</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON <span class="postal-code">M5M 2B1</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M5M 2B1</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (888) 966-9478</div>
 						<div class="website"><a href="http://north-toronto.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -180,7 +180,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Oakville</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Oakville, ON <span class="postal-code">L6J 3Z3</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Oakville</span>, ON <span class="postal-code">L6J 3Z3</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (888) 287-2131</div>
 						<div class="website"><a href="http://oakville.prepacadtutors.wpengine.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
@@ -193,7 +193,7 @@ Template Name: Locations Page
 				</div>
 				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Ottawa</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Ottawa, ON <span class="postal-code">K1L 5B8</span></div>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Ottawa</span>, ON <span class="postal-code">K1L 5B8</span></div>
 					<div class="info">
 						<div class="phone"><i class="fa fa-phone"></i> (343) 800-0226</div>
 						<div class="website"><a href="http://ottawa.prepacadtutors.wpengine.com" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>

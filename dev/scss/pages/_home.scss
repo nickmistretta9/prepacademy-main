@@ -252,6 +252,9 @@
 			@include max-width(600px) {
 				padding:4em 5%;
 			}
+			@include max-width(400px) {
+				margin:0;
+			}
 			p {
 				@include max-width(600px) {
 					font-size:20px;
@@ -264,6 +267,9 @@
 				font-style:italic;
 				@include max-width(600px) {
 					font-size:32px;
+				}
+				@include max-width(400px) {
+					font-size:28px;
 				}
 			}
 		}
@@ -753,6 +759,9 @@
 			@include max-width($screen-xs) {
 				font-size:16px;
 				padding:20px 40px;
+			}
+			@include max-width(400px) {
+				padding:20px;
 			}
 		}
 	}

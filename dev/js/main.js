@@ -552,9 +552,10 @@ var distances = [];
 var shortestDistance = 0;
 var closestLocationLat = 0;
 var closestLocationLng = 0;
+var locationToClick;
 function locationSearch() {
 	var geocoder = new google.maps.Geocoder();
-	var address = document.getElementById('postalCodeSearch').value;
+	var address = document.getElementById('postalCodeSearch').value.toLowerCase();
 	geocoder.geocode({'address': address}, function(results, status) {
 		if(status == 'OK') {
 			for(i=0; i<features.length; i++) {
@@ -568,11 +569,13 @@ function locationSearch() {
 				if(feature.distance === shortestDistance) {
 					closestLocationLat = feature.position.lat();
 					closestLocationLng = feature.position.lng();
+					locationToClick = feature;
 				}
 			});
 			moveToLocation(closestLocationLat, closestLocationLng);
-
-			address.value == "";
+			// console.log(locationToClick);
+			document.getElementById('postalCodeSearch').value == "";
+			google.maps.event.trigger(locationToClick, 'click');
 		} else {
 			console.log("Geocode was not successful for the following reason: " + status);
 		}
