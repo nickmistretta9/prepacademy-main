@@ -43,6 +43,21 @@ jQuery(document).ready(function($) {
 		]
 	});
 
+	var placeholderHeight = $('.top-fix').outerHeight();
+	$(window).scroll(function() {
+		var topBar = $('.top-fix'),
+		scroll = $(window).scrollTop(),
+		placeholder = $('.placeholder');
+
+		if(scroll >= 25) {
+			topBar.addClass('fixed');
+			placeholder.css('height', placeholderHeight);
+		} else {
+			topBar.removeClass('fixed');
+			placeholder.css('height', 0);
+		}
+	});
+
 	var formTarget = $('.contact-page-form form');
 	$('.footer-contact input').click(function() {
 		$('.footer-contact .open').removeClass('open');
@@ -592,6 +607,7 @@ function nearestLocation(lat1, lng1, lat2, lng2) {
 function moveToLocation(lat, lng) {
 	var center = new google.maps.LatLng(lat, lng);
 	map.panTo(center);
+	map.setZoom(13);
 }
 
 var elements, innerLat, innerLng, lat, lng;
