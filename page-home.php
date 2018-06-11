@@ -18,19 +18,19 @@ Template Name: Home Page
 	<div class="container-fluid">
 		<div class="flex">
 			<div class="cta-box">
-				<p class="title">Making Parents and Kids Happy</p>
+				<p class="title" data-mh>Making Parents and Kids Happy</p>
 				<div class="cta-action">
 					<a href="<?php echo home_url('/testimonials'); ?>">Our Reviews</a>
 				</div>
 			</div>
 			<div class="cta-box">
-				<p class="title">Tutoring With a Personal Touch</p>
+				<p class="title" data-mh>Tutoring With a Personal Touch</p>
 				<div class="cta-action">
 					<a href="<?php echo home_url('/how-we-work'); ?>">How We Work</a>
 				</div>
 			</div>
 			<div class="cta-box">
-				<p class="title">Hey, Smarty Pants!</p>
+				<p class="title" data-mh>Hey, Smarty Pants!</p>
 				<div class="cta-action">
 					<a href="<?php echo home_url('/find-your-local-tutor'); ?>">Find Your Tutor</a>
 				</div>
@@ -65,14 +65,14 @@ Template Name: Home Page
 		<div class="flex">
 			<div class="first-third">
 				<div class="sub">
-					<div class="icon-container"><img src="<?php bloginfo('template_directory'); ?>/dist/images/icon-award.png"></div>
+					<div class="icon-container"><!-- <i class="fa fa-certificate"></i> --></div>
 					<div class="text">
 						<h3>Certified Teachers</h3>
 						<p>Our tutors have proper experience and qualifications to make sure your student succeeds.</p>
 					</div>
 				</div>
 				<div class="sub">
-					<div class="icon-container"><i class="fa fa-home"></i></div>
+					<div class="icon-container"><!-- <i class="fa fa-home"></i> --></div>
 					<div class="text">
 						<h3>Flexible In-Home Tutoring</h3>
 						<p>Our tutors come to you at the times you decide, so tutoring fits into your and your child's schedule.</p>
@@ -85,14 +85,14 @@ Template Name: Home Page
 			</div>
 			<div class="third-third">
 				<div class="sub">
-					<div class="icon-container"><i class="fa fa-user"></i></div>
+					<div class="icon-container"><!-- <i class="fa fa-user"></i> --></div>
 					<div class="text">
 						<h3>Personal Attention</h3>
 						<p>We offer a high level of service, professionalism and work to form a bond with your child.</p>
 					</div>
 				</div>
 				<div class="sub">
-					<div class="icon-container"><i class="fa fa-graduation-cap"></i></div>
+					<div class="icon-container"><!-- <i class="fa fa-graduation-cap"></i> --></div>
 					<div class="text">
 						<h3>Boost Your Child's Confidence</h3>
 						<p>Improved grades and understanding of subject matter often results in a boost in your child's confidence.</p>

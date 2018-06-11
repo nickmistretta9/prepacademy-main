@@ -10,6 +10,13 @@
 	background:$brand-success;
 	position:relative;
 	padding:0;
+	@include max-width($screen-sm) {
+		padding:5px 0;
+	}
+	@include max-width(700px) {
+		background-image:url('../images/header-bg.jpg');
+		background-size:cover;
+	}
 	input {
 		background:$brand-primary;
 	}
@@ -32,9 +39,7 @@
 			left:0;
 		}
 		@include max-width($screen-xs) {
-			transform:scale(0.7);
-			top:-10%;
-			left:-5%;
+			transform:scale(0.85);
 			max-width:150px;
 		}
 		&.small {
@@ -48,29 +53,39 @@
 		right:0;
 		top:0;
 		color:#fff;
-		padding:10px;
-		max-width:180px;
+		max-width:200px;
 		text-align: center;
 		transition:all 0.3s ease-in-out;
-		@include max-width(1200px) {
-			padding:5px;
+		z-index:99;
+		@include max-width(1400px) {
 			max-width:150px;
+		}
+		@include max-width(1175px) {
+			top:5px;
 		}
 		@include max-width(1000px) {
 			display:none;
 		}
 		&:hover {
-			top:20px;
+			@include min-width(1175px) {
+				top:20px;
+			}
 		}
 		a {
 			color:#fff;
 			text-decoration:none;
+			display:block;
+			padding:10px;
+			@include max-width(1400px) {
+				padding:5px;
+			}
 			p {
 				font-size:20px;
 				padding-top:10px;
 				line-height:1;
+				margin-bottom: 0;
 				@include max-width(1200px) {
-					font-size:18px;
+					font-size:16px;
 				}
 			}
 		}
@@ -93,9 +108,16 @@
 			border-top:40px solid $brand-info;
 			border-left:110px solid transparent;
 			border-right:110px solid transparent;
-			@include max-width(1200px) {
+			@include max-width(1400px) {
+				border-top:30px solid $brand-info;
 				border-left:90px solid transparent;
 				border-right:90px solid transparent;
+			}
+			@include max-width(1200px) {
+				border-top:20px solid $brand-info;
+			}
+			@include max-width(1175px) {
+				display:none;
 			}
 		}
 	}
@@ -148,7 +170,7 @@
 						width:55%;
 					}
 					@include max-width($screen-xs) {
-						width:80%;
+						width:65%;
 					}
 				}
 				div {
@@ -160,7 +182,7 @@
 							margin-left:-130px;
 						}
 						@include max-width($screen-xs) {
-							margin-left:-60px;
+							margin-left:-95px;
 						}
 						.btn-info {
 							font-size:24px;

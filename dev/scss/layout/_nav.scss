@@ -8,6 +8,7 @@
 		display:flex;
 		padding:10px 0;
 		max-width:1400px;
+		justify-content:space-between;
 		@include max-width(1750px) {
 			max-width:1170px;
 			padding-left:70px;
@@ -92,10 +93,14 @@
 
 		> li {
 			color:#fff;
+			display:flex;
+			align-items:center;
+			text-align: center;
 			.dropdown-menu {
 				background:$brand-primary;
 				a {
 					color:$brand-info !important;
+					font-size:16px;
 				}
 			}
 			&:hover {
@@ -110,9 +115,12 @@
 				font-weight: 400;
 				color:lighten($brand-success, 10%) !important;
 				background:none !important;
-				font-size:20px;
+				font-size:16px;
 				transition:all 0.4s ease-in-out;
 				border-bottom:3px solid $brand-primary;
+				@include max-width(1095px) {
+					line-height:1;
+				}
 				@include max-width(1500px) {
 					font-size:15px;
 					padding:5px 10px;
@@ -163,9 +171,11 @@
 		justify-content:space-between;
 		flex-wrap:wrap;
 	}
+	@include max-width(700px) {
+		width:100%;
+	}
 	@include max-width(500px) {
 		margin-top:20px;
-		margin-left:-100px;
 	}
 	.mobile-phone {
 		width:100%;
@@ -180,11 +190,30 @@
 			margin-top:-35px;
 		}
 	}
+	.mobile-toggle {
+		align-items:center;
+		@include max-width(500px) {
+			flex-direction:column;
+			align-items:flex-end;
+		}
+		.fa-bars {
+			text-align:right;
+			@include min-width(700px) {
+				width:100%;
+			}
+		}
+	}
 	.mobile-toggle, .call, .email {
+		i {
+			display:flex;
+			align-items:center;
+			margin-right: 5px;
+		}
 
 		@include max-width($grid-float-breakpoint-max) {
 			display: flex;
-			flex-flow:column wrap;
+			// flex-direction:column;
+			// flex-flow:column wrap;
 			flex:1 1 15%;
 			justify-content:center;
 			margin-left: 30px;
@@ -198,12 +227,12 @@
 			width:100%;
 			text-align:left;
 		}
-		@include max-width(700px) {
-			align-items:flex-end;
+		@include max-width(730px) {
+			margin-left:20px;
 		}
-		// @include max-width(500px) {
-		// 	margin-top:20px;
-		// }
+		@include max-width(425px) {
+			margin-left:5px;
+		}
 		@include max-width(400px) {
 			margin-left:0px;
 			// margin-top:20px;
@@ -215,14 +244,13 @@
 			text-decoration:none;
 			color:#fff;
 			display:flex;
-			flex-direction:column;
 			i {
 				text-align:right;
 			}	
-		}
-		.fa-bars {
-			width:100%;
-			text-align:right;
+			@include max-width(500px) {
+				flex-direction:column;
+				align-items:flex-end;
+			}
 		}
 	}
 }
