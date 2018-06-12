@@ -15,11 +15,8 @@
 					<a href="<?php echo home_url('/contact'); ?>">
 						<li>Contact</li>
 					</a>
-					<a href="//franchise.prepacadtutors.wpengine.com">
+					<a href="http://franchise.prepacadtutors.wpengine.com">
 						<li>Franchise Opportunities</li>
-					</a>
-					<a href="<?php echo home_url('/sitemap_index.xml'); ?>">
-						<li>Site Map</li>
 					</a>
 					<a href="<?php echo home_url('/privacy-policy'); ?>">
 						<li>Privacy Policy</li>
