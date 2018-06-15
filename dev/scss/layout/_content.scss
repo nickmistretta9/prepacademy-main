@@ -564,17 +564,17 @@
 				display:flex;
 				align-items:center;
 				justify-content:center;
-				select, p {
-					@include max-width($screen-xs) {
-						flex:1 1 100%;
-					}
-				}
 				select {
 					flex:1 1 75%;
 				}
 				p {
 					flex:1 1 25%;
 					margin-bottom: 0;
+				}
+				select, p {
+					@include max-width($screen-xs) {
+						flex:1 1 100%;
+					}
 				}
 			}
 			.or {
@@ -594,11 +594,6 @@
 				}
 			}
 			.location {
-				p, .search {
-					@include max-width($screen-xs) {
-						flex:1 1 100%;
-					}
-				}
 				p {
 					margin-right:20px;
 					display:flex;
@@ -618,6 +613,11 @@
 						padding:5px 20px;
 						border-radius:0 10px 10px 0;
 						margin-left:-5px;
+					}
+				}
+				p, .search {
+					@include max-width($screen-xs) {
+						flex:1 1 100%;
 					}
 				}
 			}
@@ -664,10 +664,16 @@
 					}
 					.info {
 						display:flex;
+						@include max-width(600px) {
+							flex-wrap:wrap;
+						}
 						.phone, .website {
 							flex:1 1 45%;
 							font-size:30px;
 							margin-top:15px;
+							@include max-width(600px) {
+								flex:1 1 100%;
+							}
 							i {
 								font-size:34px;
 								color:$brand-info;

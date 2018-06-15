@@ -8798,14 +8798,14 @@ iframe[name="google_conversion_frame"] {
     display: flex;
     align-items: center;
     justify-content: center; }
-    @media screen and (max-width: 480px) {
-      .inner-content.locations-content .search-box .state select, .inner-content.locations-content .search-box .state p {
-        flex: 1 1 100%; } }
     .inner-content.locations-content .search-box .state select {
       flex: 1 1 75%; }
     .inner-content.locations-content .search-box .state p {
       flex: 1 1 25%;
       margin-bottom: 0; }
+    @media screen and (max-width: 480px) {
+      .inner-content.locations-content .search-box .state select, .inner-content.locations-content .search-box .state p {
+        flex: 1 1 100%; } }
   .inner-content.locations-content .search-box .or {
     flex: 1 1 20%;
     display: flex;
@@ -8820,9 +8820,6 @@ iframe[name="google_conversion_frame"] {
       padding: 0 20px;
       color: #00263A;
       font-size: 32px; }
-  @media screen and (max-width: 480px) {
-    .inner-content.locations-content .search-box .location p, .inner-content.locations-content .search-box .location .search {
-      flex: 1 1 100%; } }
   .inner-content.locations-content .search-box .location p {
     margin-right: 20px;
     display: flex;
@@ -8841,6 +8838,9 @@ iframe[name="google_conversion_frame"] {
       padding: 5px 20px;
       border-radius: 0 10px 10px 0;
       margin-left: -5px; }
+  @media screen and (max-width: 480px) {
+    .inner-content.locations-content .search-box .location p, .inner-content.locations-content .search-box .location .search {
+      flex: 1 1 100%; } }
 
 .inner-content.locations-content .locations-list .list {
   display: flex;
@@ -8870,10 +8870,16 @@ iframe[name="google_conversion_frame"] {
       border-top: 1px solid #AAA9A8; }
     .inner-content.locations-content .locations-list .list .individual-location .info {
       display: flex; }
+      @media screen and (max-width: 600px) {
+        .inner-content.locations-content .locations-list .list .individual-location .info {
+          flex-wrap: wrap; } }
       .inner-content.locations-content .locations-list .list .individual-location .info .phone, .inner-content.locations-content .locations-list .list .individual-location .info .website {
         flex: 1 1 45%;
         font-size: 30px;
         margin-top: 15px; }
+        @media screen and (max-width: 600px) {
+          .inner-content.locations-content .locations-list .list .individual-location .info .phone, .inner-content.locations-content .locations-list .list .individual-location .info .website {
+            flex: 1 1 100%; } }
         .inner-content.locations-content .locations-list .list .individual-location .info .phone i, .inner-content.locations-content .locations-list .list .individual-location .info .website i {
           font-size: 34px;
           color: #C8102E; }
