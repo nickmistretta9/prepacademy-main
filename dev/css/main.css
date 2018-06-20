@@ -8520,6 +8520,8 @@ iframe[name="google_conversion_frame"] {
           .inner-content .content.contact .col-sm-6:last-child .contact-page-form .caldera-grid .col-sm-12 .form-group select {
             caret-color: #fff;
             appearance: menulist; }
+            .inner-content .content.contact .col-sm-6:last-child .contact-page-form .caldera-grid .col-sm-12 .form-group select option {
+              color: #000; }
           .inner-content .content.contact .col-sm-6:last-child .contact-page-form .caldera-grid .col-sm-12 .form-group ::placeholder {
             color: #fff; }
           .inner-content .content.contact .col-sm-6:last-child .contact-page-form .caldera-grid .col-sm-12 .form-group#fld_6722851_1-wrap {
@@ -9695,6 +9697,8 @@ form textarea {
     .home-contact .footer-contact .caldera-grid select {
       caret-color: #fff;
       appearance: menulist; }
+      .home-contact .footer-contact .caldera-grid select option {
+        color: #000; }
     .home-contact .footer-contact .caldera-grid ::placeholder {
       color: #fff; }
     .home-contact .footer-contact input, .home-contact .footer-contact textarea, .home-contact .footer-contact select {
