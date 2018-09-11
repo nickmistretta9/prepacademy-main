@@ -1,5 +1,4 @@
 .top-fix {
-	// position:fixed;
 	width:100%;
 	z-index:99;
 	&.fixed {
@@ -29,10 +28,9 @@
 	.logo {
 		position:absolute;
 		left:2%;
-		top:45%;
+		top:25%;
 		z-index:99;
 		transition:all 0.6s ease-in-out;
-		transform:scale(1.1);
 		@include max-width(1500px) {
 			transform:scale(0.9);
 			top:5%;
@@ -77,13 +75,19 @@
 			display:block;
 			padding:10px;
 			@include max-width(1400px) {
-				padding:5px;
+				padding:0;
+			}
+			@include max-width(1175px) {
+				padding:10px;
 			}
 			p {
-				font-size:20px;
+				font-size:18px;
 				padding-top:10px;
 				line-height:1;
 				margin-bottom: 0;
+				@include max-width(1400px) {
+					padding-top:0;
+				}
 				@include max-width(1200px) {
 					font-size:16px;
 				}
@@ -125,7 +129,7 @@
 		display:flex;
 		align-items:center;
 		justify-content:flex-end;
-		@include max-width(1500px) {
+		@include max-width(1530px) {
 			justify-content:center;
 		}
 		@include max-width(1000px) {
