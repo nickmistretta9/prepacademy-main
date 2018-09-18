@@ -364,6 +364,17 @@ function initMap() {
 			'distance':''
 		},
 		{
+			position:new google.maps.LatLng(43.4305376,-80.5463547),
+			type:'info',
+			contentString: '<div class="info-window-outer"><p class="title">Prep Academy Tutors of Kitchener-Waterloo</p> <hr>' +
+			'<div class="location"><i class="fa fa-map-marker"></i> Kitchener, ON N2A 2Z6</div>' +
+			'<div class="phone"><i class="fa fa-phone"></i> (226) 406-6978</div>' +
+			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p></p></div>' +
+			'<button class="btn-info"><a href="http://kitchener-waterloo.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'</div>',
+			'distance':''
+		},
+		{
 			position:new google.maps.LatLng(43.7137852,-79.663999),
 			type:'info',
 			contentString: '<div class="info-window-outer"><p class="title">Prep Academy Tutors of Burlington</p> <hr>' +

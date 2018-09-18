@@ -114,6 +114,19 @@ Template Name: Locations Page
 					</div>
 				</div>
 				<div class="individual-location">
+					<p class="title">Prep Academy Tutors of Kitchener-Waterloo</p>
+					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Kitchener</span>, ON <span class="postal-code">N2A 2Z6</span></div>
+					<div class="info">
+						<div class="phone"><i class="fa fa-phone"></i> (226) 406-5978</div>
+						<div class="website"><a href="http://kitchener-waterloo.prepacadtutors.wpengine.com" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
+					</div>
+					<hr>
+					<div class="areas">
+						<p class="subtitle">Common Areas Serviced</p>
+						<p></p>
+					</div>
+				</div>
+				<div class="individual-location">
 					<p class="title">Prep Academy Tutors of Markham</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Markham</span>, ON <span class="postal-code">L3P</span></div>
 					<div class="info">
