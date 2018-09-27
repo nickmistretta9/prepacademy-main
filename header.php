@@ -47,7 +47,7 @@
 		<a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/dist/images/logo.png" alt="" class="logo"></a>
 		<div class="container-fluid">
 			<div class="flex">
-				<div>
+				<!-- <div>
 					<p class="h4">Find My Location:</p>
 				</div>
 				<form action="<?php echo home_url('/find-your-local-tutor'); ?>" method="post">
@@ -59,7 +59,8 @@
 							<button class="btn-info">Go!</button>
 						</div>
 					</div>
-				</form>
+				</form> -->
+				<a href="<?php echo get_page_link(10); ?>" class="btn btn-info">Find Your Local Tutor</a>
 			</div>
 		</div>
 		<div class="franchise">
@@ -70,8 +71,8 @@
 	<nav class="navbar-default">
 	    <div class="container-fluid">
 	        <div id="st-trigger-effects" class="column mobile-buttons">
-        		<div class="mobile-phone"><span>888.885.3968</span></div>
-        		<a class="call mobile-ctc" href="tel:888-885-3968"><i class="fa fa-phone"></i> Call</a>
+        		<div class="mobile-phone"><span>647.620.7955</span></div>
+        		<a class="call mobile-ctc" href="tel:647-620-7955"><i class="fa fa-phone"></i> Call</a>
         		<a class="email mobile-ctc" href="mailto:info@prepacademytutors.com"><i class="fa fa-envelope"></i> Email</a>
             	<button class="mobile-toggle" data-effect="st-effect-4"><i class="fa fa-bars"></i> Menu</button>
 	        </div>
@@ -95,7 +96,7 @@
 	        	?>
 	        </div>
 	        <div class="phone">
-	        	<a href="tel:888-885-3968">888.885.3968</a>
+	        	<a href="tel:647-620-7955">647.620.7955</a>
 	        </div>
 	    </div>
 	</nav>

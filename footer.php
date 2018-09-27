@@ -27,7 +27,7 @@
 				<a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/dist/images/logo.png"></a> <br>
 				<a href="http://www.prepacademytutors.com">http://www.prepacademytutors.com/</a> <br>
 				<div class="copy"><i class="fa fa-copyright"></i> All Rights Reserved. </div>
-				<a class="phone" href="tel:888-885-3968">888.885.3968</a> <br>
+				<a class="phone" href="tel:647-620-7955">647.620.7955</a> <br>
 				<div class="social-icons">
 					<a href="https://www.linkedin.com/company/prep-academy-tutors?trk=nav_account_sub_nav_company_admin"><i class="fa fa-linkedin"></i></a>
 					<a href="https://twitter.com/pattutors"><i class="fa fa-twitter"></i></a>

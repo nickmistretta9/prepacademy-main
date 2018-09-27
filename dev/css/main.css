@@ -7821,7 +7821,7 @@ iframe[name="google_conversion_frame"] {
 .site-header {
   background: #D8D3C4;
   position: relative;
-  padding: 0; }
+  padding: 10px 0; }
   @media screen and (max-width: 768px) {
     .site-header {
       padding: 5px 0; } }
@@ -7867,9 +7867,6 @@ iframe[name="google_conversion_frame"] {
     @media screen and (max-width: 1400px) {
       .site-header .franchise {
         max-width: 150px; } }
-    @media screen and (max-width: 1175px) {
-      .site-header .franchise {
-        top: 5px; } }
     @media screen and (max-width: 1000px) {
       .site-header .franchise {
         display: none; } }
@@ -7881,23 +7878,17 @@ iframe[name="google_conversion_frame"] {
       text-decoration: none;
       display: block;
       padding: 10px; }
-      @media screen and (max-width: 1400px) {
-        .site-header .franchise a {
-          padding: 0; } }
       @media screen and (max-width: 1175px) {
         .site-header .franchise a {
-          padding: 10px; } }
+          padding: 15px; } }
       .site-header .franchise a p {
         font-size: 18px;
         padding-top: 10px;
         line-height: 1;
         margin-bottom: 0; }
-        @media screen and (max-width: 1400px) {
-          .site-header .franchise a p {
-            padding-top: 0; } }
         @media screen and (max-width: 1200px) {
           .site-header .franchise a p {
-            font-size: 16px; } }
+            font-size: 17px; } }
     .site-header .franchise:before {
       content: '';
       position: absolute;
@@ -7906,6 +7897,9 @@ iframe[name="google_conversion_frame"] {
       width: 100%;
       background: #C8102E;
       height: 30px; }
+      @media screen and (max-width: 1175px) {
+        .site-header .franchise:before {
+          height: 0; } }
     .site-header .franchise:after {
       content: '';
       position: absolute;
@@ -7937,65 +7931,12 @@ iframe[name="google_conversion_frame"] {
     @media screen and (max-width: 1000px) {
       .site-header .flex {
         justify-content: flex-end; } }
-    @media screen and (max-width: 768px) {
-      .site-header .flex form {
-        display: flex;
-        width: 100%;
-        justify-content: flex-end; } }
-    .site-header .flex div:first-child .h4 {
-      text-transform: uppercase;
-      font-weight: 400;
-      color: #00263A;
-      font-size: 22px; }
-      @media screen and (max-width: 1000px) {
-        .site-header .flex div:first-child .h4 {
-          font-size: 20px; } }
-      @media screen and (max-width: 768px) {
-        .site-header .flex div:first-child .h4 {
-          display: none; } }
-    .site-header .flex div.form {
-      display: flex; }
-      @media screen and (max-width: 480px) {
-        .site-header .flex div.form {
-          width: 100%;
-          justify-content: flex-end; } }
-      .site-header .flex div.form input {
-        margin-left: 10px;
-        color: #fff;
-        height: 40px; }
-        @media screen and (max-width: 1000px) {
-          .site-header .flex div.form input {
-            width: 80%; } }
-        @media screen and (max-width: 768px) {
-          .site-header .flex div.form input {
-            width: 55%; } }
-        @media screen and (max-width: 480px) {
-          .site-header .flex div.form input {
-            width: 65%; } }
-      @media screen and (max-width: 1000px) {
-        .site-header .flex div.form div:last-child {
-          margin-left: -58px; } }
-      @media screen and (max-width: 768px) {
-        .site-header .flex div.form div:last-child {
-          margin-left: -130px; } }
-      @media screen and (max-width: 480px) {
-        .site-header .flex div.form div:last-child {
-          margin-left: -95px; } }
-      .site-header .flex div.form div:last-child .btn-info {
-        font-size: 24px;
-        padding: 0px 15px;
-        transition: all 0.3s ease-in-out;
-        border: none;
-        height: 100%; }
-        .site-header .flex div.form div:last-child .btn-info:hover {
-          background: #52474D; }
-        @media screen and (max-width: 768px) {
-          .site-header .flex div.form div:last-child .btn-info {
-            font-size: 20px; } }
-        @media screen and (max-width: 400px) {
-          .site-header .flex div.form div:last-child .btn-info {
-            font-size: 16px;
-            padding: 5px 10px; } }
+    .site-header .flex .btn-info {
+      padding: 10px 30px;
+      border-radius: 0; }
+      @media screen and (max-width: 450px) {
+        .site-header .flex .btn-info {
+          padding: 10px 20px; } }
 
 .navbar-default {
   border-radius: 0;
