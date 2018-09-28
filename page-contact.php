@@ -13,7 +13,7 @@ Template Name: Contact Page
 			<div class="col-sm-6">
 				<div class="container-fluid">
 					<h2>Prep Academy Tutors</h2>
-					<p>Telephone: <span>888.885.3968</span></p>
+					<p>Telephone: <span>888.995.7382</span></p>
 					<div class="about-us-box">
 						<div class="icon-container">
 							<i class="fa fa-user"></i>
