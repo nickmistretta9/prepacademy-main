@@ -337,7 +337,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Brantford, ON N3T 5B3</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (226) 778-7517</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p></div>' +
-			'<button class="btn-info"><a href="http://brantford-hamilton.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://brantford-hamilton.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -348,7 +348,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Ottawa, ON L7L</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (343) 800-0226</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>The Glebe, Orleans, New Edinburgh, Westboro, Rockcliffe, Nepean</p></div>' +
-			'<button class="btn-info"><a href="http://ottawa.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://ottawa.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -359,7 +359,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Oakville, ON L6J 3Z3</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (888) 287-2131</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Oakville</p></div>' +
-			'<button class="btn-info"><a href="http://oakville.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://oakville.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -370,7 +370,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Kitchener, ON N2A 2Z6</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (226) 406-6978</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p></p></div>' +
-			'<button class="btn-info"><a href="http://kitchener-waterloo.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://kitchener-waterloo.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -381,7 +381,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Burlington, ON L7L</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (888) 310-9334</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Burlington</p></div>' +
-			'<button class="btn-info"><a href="http://burlington.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://burlington.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -392,7 +392,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON M6S 3J8</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (647) 360-9162</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Toronto, Etobicoke</p></div>' +
-			'<button class="btn-info"><a href="http://west-toronto-etobicoke.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://west-toronto-etobicoke.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -403,7 +403,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON M4S 1A9</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (647) 360-8874</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Toronto</p></div>' +
-			'<button class="btn-info"><a href="http://midtown-toronto.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://midtown-toronto.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -414,7 +414,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON M4S 1J7</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (647) 697-6446</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Toronto</p></div>' +
-			'<button class="btn-info"><a href="http://east-toronto.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://east-toronto.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -425,7 +425,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON M5M 2B1</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (888) 966-9478</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Toronto</p></div>' +
-			'<button class="btn-info"><a href="http://north-toronto.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://north-toronto.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -436,7 +436,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Durham, ON L1W 2S2</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (226) 270-2062</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Durham</p></div>' +
-			'<button class="btn-info"><a href="http://durham.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://durham.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -447,7 +447,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Markham, ON L3P</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (888) 823-2031</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Markham</p></div>' +
-			'<button class="btn-info"><a href="http://markham.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://markham.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -458,7 +458,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Richmond Hill, ON L4B</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (905) 581-1076</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Richmond Hill</p></div>' +
-			'<button class="btn-info"><a href="http://richmond-hill.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://richmond-hill.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -469,7 +469,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Vaughan, ON L6A</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (888) 652-0168</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Burlington</p></div>' +
-			'<button class="btn-info"><a href="http://vaughan.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://vaughan.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -480,7 +480,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Aurora, ON L4G 6K3</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (888) 683-2083</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Aurora</p></div>' +
-			'<button class="btn-info"><a href="http://aurora.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://aurora.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -491,7 +491,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Newmarket, ON L3Y</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (289) 803-3818</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Newmarket</p></div>' +
-			'<button class="btn-info"><a href="http://newmarket.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://newmarket.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -502,7 +502,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Mississauga, ON L4T</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (888) 791-1296</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Mississauga, Milton</p></div>' +
-			'<button class="btn-info"><a href="http://mississauga.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://mississauga.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		},
@@ -513,7 +513,7 @@ function initMap() {
 			'<div class="location"><i class="fa fa-map-marker"></i> Montreal, QC H3G 1C7</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (514) 700-7166</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Montreal, Laval, Saint-Laurent, Outremont, Pointe-Claire, Verdun, Pierrefonds, Lasalle and surrounding areas</p></div>' +
-			'<button class="btn-info"><a href="http://montreal.prepacadtutors.wpengine.com/">View Website</a></button>' +
+			'<button class="btn-info"><a href="http://montreal.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
 			'distance':''
 		}
@@ -524,7 +524,7 @@ function initMap() {
 		});
 		var marker = new google.maps.Marker({
 			position:feature.position,
-			icon:'http://prepacadtutors.wpengine.com/wp-content/themes/prepacademy/dist/images/map-marker.png',
+			icon:'http://prepacademytutors.com/wp-content/themes/prepacademy/dist/images/map-marker.png',
 			map:map
 		});
 		marker.addListener('click', function() {

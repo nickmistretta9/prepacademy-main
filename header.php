@@ -64,7 +64,7 @@
 			</div>
 		</div>
 		<div class="franchise">
-			<a href="//franchise.prepacadtutors.wpengine.com"><p>Franchise Opportunities</p></a>
+			<a href="//franchise.prepacademytutors.com"><p>Franchise Opportunities</p></a>
 		</div>
 	</header>
 
