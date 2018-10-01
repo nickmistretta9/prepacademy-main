@@ -577,7 +577,7 @@ function nearestLocation(lat1, lng1, lat2, lng2) {
 function moveToLocation(lat, lng) {
 	var center = new google.maps.LatLng(lat, lng);
 	map.panTo(center);
-	map.setZoom(13);
+	map.setZoom(18);
 }
 
 var elements, innerLat, innerLng, lat, lng;
