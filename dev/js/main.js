@@ -14,10 +14,6 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-	// $('.form-group').append('<span></span>');
-
-	// $('#menu-item-48 ul').removeClass('.dropdown-menu');
-
 	$('.testimonial-slider').slick({
 		autoplay:false,
 		responsive: [
@@ -45,19 +41,6 @@ jQuery(document).ready(function($) {
 			placeholder.css('height', 0);
 		}
 	});
-
-	// var topNav = $('.top-fix').offset().top;
-	// $(window).on('scroll', function() {
-	// 	if($(window).scrollTop() >= topNav) {
-	// 		$('.logo').addClass('small');
-	// 	} else {
-	// 		$('.logo').removeClass('small');
-	// 	}
-	// });
-
-	// $(window).on('beforeunload', function() {
-	// 	$(window).scrollTop(0);
-	// });
 
 	$('.state-select').change(function() {
 		$('.list').removeClass('hide');

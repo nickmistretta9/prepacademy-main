@@ -170,6 +170,7 @@ Template Name: Home Page
 			<input type="text" id="postalCodeSearch" class="form-control" placeholder="Enter Your Postal Code">
 			<button class="btn-info" onclick="locationSearch();">Go!</button>
 		</div>
+		<p>Enter Your Postal Code To Find The Prep Academy Tutors Location Closest To You!</p>
 	</div>
 </section>
 <section class="home-contact">

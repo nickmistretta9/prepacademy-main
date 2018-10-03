@@ -17,7 +17,7 @@ Template Name: Locations Page
 			<button class="btn-info" onclick="locationSearch();">Search</button>
 		</div>
 		<div class="location-text">
-			<p>Find your local Prep Academy Tutors by typing in your city, state or zip code in the box above!</p>
+			<p>Enter Your Postal Code To Find The Prep Academy Tutors Location Closest To You!</p>
 		</div>
 	</div>
 </section>

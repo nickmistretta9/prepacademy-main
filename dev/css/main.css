@@ -9556,7 +9556,8 @@ form textarea {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 80%;
-    padding: 4em 6.5%; }
+    padding: 4em 6.5%;
+    max-width: 600px; }
     @media screen and (max-width: 992px) {
       .map-area .location-search {
         height: 70%; } }
@@ -9598,6 +9599,11 @@ form textarea {
         @media screen and (max-width: 768px) {
           .map-area .location-search .search .btn-info {
             padding: 0 20px; } }
+    .map-area .location-search p {
+      font-size: 20px;
+      margin-top: 10px;
+      font-style: italic;
+      text-align: center; }
   .map-area.locations {
     min-height: 1000px;
     padding: 4em 5%; }
