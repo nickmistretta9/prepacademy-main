@@ -48,7 +48,7 @@ Template Name: Locations Page
 		<div class="locations-list">
 			<div class="list ontario">
 				<h2>Ontario</h2>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors Durham</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Pickering</span>, ON <span class="postal-code">L1W 2S2</span></div>
 					<div class="info">
@@ -61,7 +61,7 @@ Template Name: Locations Page
 						<p>Durham</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Aurora</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Aurora</span>, ON <span class="postal-code">L4G 6K3</span></div>
 					<div class="info">
@@ -74,7 +74,7 @@ Template Name: Locations Page
 						<p>Aurora, Nobleton</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Brantford and Hamilton</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Brantford</span>, ON <span class="postal-code">N3T 5B3</span></div>
 					<div class="info">
@@ -87,7 +87,7 @@ Template Name: Locations Page
 						<p></p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Burlington</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Burlington</span>, ON <span class="postal-code">L7L</span></div>
 					<div class="info">
@@ -100,7 +100,7 @@ Template Name: Locations Page
 						<p>Burlington</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors East Toronto</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M4S 1J7</span></div>
 					<div class="info">
@@ -113,7 +113,7 @@ Template Name: Locations Page
 						<p>Toronto, Downtown Toronto, East York, Scarborough, Danforth Village, Rosedale, Riverside, Riverdale and surrounding areas</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Kitchener-Waterloo</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Kitchener</span>, ON <span class="postal-code">N2A 2Z6</span></div>
 					<div class="info">
@@ -126,7 +126,7 @@ Template Name: Locations Page
 						<p></p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Markham</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Markham</span>, ON <span class="postal-code">L3P</span></div>
 					<div class="info">
@@ -139,7 +139,7 @@ Template Name: Locations Page
 						<p>Markham, Unionville</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Midtown Toronto</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M4S 1A9</span></div>
 					<div class="info">
@@ -152,7 +152,7 @@ Template Name: Locations Page
 						<p>Toronto, York</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Mississauga</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Mississauga</span>, ON <span class="postal-code">L4T</span></div>
 					<div class="info">
@@ -165,7 +165,7 @@ Template Name: Locations Page
 						<p>Mississauga, Milton</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Newmarket</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Newmarket</span>, ON <span class="postal-code">L3Y</span></div>
 					<div class="info">
@@ -178,7 +178,7 @@ Template Name: Locations Page
 						<p>Newmarket, Tottenham, Stouffville, Bradford, River Drive Park</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of North Toronto</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M5M 2B1</span></div>
 					<div class="info">
@@ -191,7 +191,7 @@ Template Name: Locations Page
 						<p>North York, Toronto, York</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Oakville</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Oakville</span>, ON <span class="postal-code">L6J 3Z3</span></div>
 					<div class="info">
@@ -204,7 +204,7 @@ Template Name: Locations Page
 						<p>Oakville</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Ottawa</p>
 					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Ottawa</span>, ON <span class="postal-code">K1L 5B8</span></div>
 					<div class="info">
@@ -217,7 +217,7 @@ Template Name: Locations Page
 						<p>The Glebe, Orleans, New Edinburgh, Westboro, Rockcliffe, Nepean</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Richmond Hill</p>
 					<div class="location"><i class="fa fa-map-marker"></i> Richmond Hill, ON <span class="postal-code">L4B</span></div>
 					<div class="info">
@@ -230,7 +230,7 @@ Template Name: Locations Page
 						<p>Richmond Hill, Thornhill</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of Vaughan</p>
 					<div class="location"><i class="fa fa-map-marker"></i> Vaughan, ON <span class="postal-code">L6A</span></div>
 					<div class="info">
@@ -243,7 +243,7 @@ Template Name: Locations Page
 						<p>Woodbridge, Vaughan, Thornhill, Concord, Kleinburg</p>
 					</div>
 				</div>
-				<div class="individual-location">
+				<div class="individual-location ontario">
 					<p class="title">Prep Academy Tutors of West Toronto &amp; Etobicoke</p>
 					<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON <span class="postal-code">M6S 3J8</span></div>
 					<div class="info">
@@ -259,7 +259,7 @@ Template Name: Locations Page
 			</div>
 			<div class="list quebec">
 				<h2>Quebec</h2>
-				<div class="individual-location">
+				<div class="individual-location quebec">
 					<p class="title">Prep Academy Tutors Montreal</p>
 					<div class="location"><i class="fa fa-map-marker"></i> Montreal, QC <span class="postal-code">H3G 1C7</span></div>
 					<div class="info">

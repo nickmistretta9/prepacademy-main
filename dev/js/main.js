@@ -322,18 +322,20 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p></div>' +
 			'<button class="btn-info"><a href="http://brantford-hamilton.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'N3T 5B3'
 		},
 		{
 			position:new google.maps.LatLng(43.3794426,-79.8022951),
 			type:'info',
 			contentString: '<div class="info-window-outer"><p class="title">Prep Academy Tutors of Ottawa</p> <hr>' +
-			'<div class="location"><i class="fa fa-map-marker"></i> Ottawa, ON L7L</div>' +
+			'<div class="location"><i class="fa fa-map-marker"></i> Ottawa, ON K1L 5B8</div>' +
 			'<div class="phone"><i class="fa fa-phone"></i> (343) 800-0226</div>' +
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>The Glebe, Orleans, New Edinburgh, Westboro, Rockcliffe, Nepean</p></div>' +
 			'<button class="btn-info"><a href="http://ottawa.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'K1L 5B8'
 		},
 		{
 			position:new google.maps.LatLng(43.4530086,-79.6578551),
@@ -344,7 +346,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Oakville</p></div>' +
 			'<button class="btn-info"><a href="http://oakville.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L6J 3Z3'
 		},
 		{
 			position:new google.maps.LatLng(43.4305376,-80.5463547),
@@ -355,7 +358,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p></p></div>' +
 			'<button class="btn-info"><a href="http://kitchener-waterloo.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'N2A 2Z6'
 		},
 		{
 			position:new google.maps.LatLng(43.7137852,-79.663999),
@@ -366,7 +370,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Burlington</p></div>' +
 			'<button class="btn-info"><a href="http://burlington.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L7L'
 		},
 		{
 			position:new google.maps.LatLng(43.642244,-79.4775534),
@@ -377,7 +382,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Toronto, Etobicoke</p></div>' +
 			'<button class="btn-info"><a href="http://west-toronto-etobicoke.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'M6S 3J8'
 		},
 		{
 			position:new google.maps.LatLng(43.698249,-79.389791),
@@ -388,7 +394,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Toronto</p></div>' +
 			'<button class="btn-info"><a href="http://midtown-toronto.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'M4S 1A9'
 		},
 		{
 			position:new google.maps.LatLng(43.7002668,-79.3942377),
@@ -399,7 +406,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Toronto</p></div>' +
 			'<button class="btn-info"><a href="http://east-toronto.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'M4S 1J7'
 		},
 		{
 			position:new google.maps.LatLng(43.7325465,-79.4113278),
@@ -410,7 +418,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Toronto</p></div>' +
 			'<button class="btn-info"><a href="http://north-toronto.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'M5M 2B1'
 		},
 		{
 			position:new google.maps.LatLng(43.8123104,-79.1068753),
@@ -421,7 +430,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Durham</p></div>' +
 			'<button class="btn-info"><a href="http://durham.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L1W 2S2'
 		},
 		{
 			position:new google.maps.LatLng(43.8771251,-79.28435),
@@ -432,7 +442,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Markham</p></div>' +
 			'<button class="btn-info"><a href="http://markham.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L3P'
 		},
 		{
 			position:new google.maps.LatLng(43.8588281,-79.4193905),
@@ -443,7 +454,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Richmond Hill</p></div>' +
 			'<button class="btn-info"><a href="http://richmond-hill.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L4B'
 		},
 		{
 			position:new google.maps.LatLng(43.8780556,-79.5452946),
@@ -454,7 +466,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Burlington</p></div>' +
 			'<button class="btn-info"><a href="http://vaughan.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L6A'
 		},
 		{
 			position:new google.maps.LatLng(44.014214,-79.4828395),
@@ -465,7 +478,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Aurora</p></div>' +
 			'<button class="btn-info"><a href="http://aurora.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L4G 6K3'
 		},
 		{
 			position:new google.maps.LatLng(44.0605432,-79.471206),
@@ -476,7 +490,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Newmarket</p></div>' +
 			'<button class="btn-info"><a href="http://newmarket.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L3Y'
 		},
 		{
 			position:new google.maps.LatLng(43.5772409,-79.6344296),
@@ -487,7 +502,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Mississauga, Milton</p></div>' +
 			'<button class="btn-info"><a href="http://mississauga.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'L4T'
 		},
 		{
 			position:new google.maps.LatLng(45.5579564,-73.8703841),
@@ -498,7 +514,8 @@ function initMap() {
 			'<div class="cities"><p class="subtitle">Common Cities Served</p> <p>Montreal, Laval, Saint-Laurent, Outremont, Pointe-Claire, Verdun, Pierrefonds, Lasalle and surrounding areas</p></div>' +
 			'<button class="btn-info"><a href="http://montreal.prepacademytutors.com/">View Website</a></button>' +
 			'</div>',
-			'distance':''
+			'distance':'',
+			'postal':'H3G 1C7'
 		}
 	];
 	features.forEach(function(feature) {
@@ -541,7 +558,6 @@ function locationSearch() {
 				}
 			});
 			moveToLocation(closestLocationLat, closestLocationLng);
-			// console.log(locationToClick);
 			document.getElementById('postalCodeSearch').value == "";
 			google.maps.event.trigger(locationToClick, 'click');
 		} else {
@@ -592,20 +608,54 @@ function locationFilter() {
 	});
 }
 
+
+// Tutor page postal code search
 function postalCodeFilter() {
+	var searchDistances = [];
 	var elements = document.querySelectorAll('.individual-location');
 	var searchQuery = document.getElementById('locationFilter').value.toLowerCase();
+	var geocoder = new google.maps.Geocoder();
+	var ontarioHeading = document.querySelector('.ontario h2');
+	var quebecHeading = document.querySelector('.quebec h2');
 	if(searchQuery == '') {
 		elements.forEach(function(element) {
 			element.classList.remove('hide');
 		});
+		quebecHeading.classList.remove('hide');
+		ontarioHeading.classList.remove('hide');
 	} else {
 		elements.forEach(function(element) {
-			var postalCode = element.querySelector('.postal-code').innerHTML.toLowerCase();
-			if(postalCode != searchQuery) {
-				element.classList.add('hide');
+			element.classList.add('hide');
+		});
+		geocoder.geocode({'address': searchQuery}, function(results, status) {
+			if(status == 'OK') {
+				for(i=0; i<features.length; i++) {
+					var latitude = this.features[i].position.lat();
+					var longitude = this.features[i].position.lng();
+					features[i].distance = nearestLocation(results[0].geometry.location.lat(), results[0].geometry.location.lng(), latitude, longitude);
+					searchDistances.push(features[i].distance);
+				};
+				shortestDistance = Math.min.apply(null, searchDistances);
+				var postalCodeToMatch;
+				features.forEach(function(feature) {
+					if(feature.distance === shortestDistance) {
+						postalCodeToMatch = feature.postal;
+					}
+				});
+				elements.forEach(function(element) {
+					var postalCode = element.querySelector('.postal-code').innerHTML.toLowerCase();
+					if(postalCode === postalCodeToMatch.toLowerCase()) {
+						element.classList.remove('hide');
+						if(element.classList.contains('quebec')) {
+							ontarioHeading.classList.add('hide');
+						} else if(element.classList.contains('ontario')) {
+							quebecHeading.classList.add('hide');
+						}
+					}
+				});
+			} else {
+				console.log("Geocode was not successful for the following reason: " + status);
 			}
 		});
 	}
 }
-
