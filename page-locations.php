@@ -22,7 +22,6 @@ Template Name: Locations Page
 	</div>
 </section>
 <section class="inner-content locations-content">
-
 	<div class="container-fluid">
 		<h1><span>Our</span> <br> Locations</h1>
 		<div class="search-box">
@@ -48,230 +47,73 @@ Template Name: Locations Page
 		<div class="locations-list">
 			<div class="list ontario">
 				<h2>Ontario</h2>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors Durham</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Pickering</span>, ON <span class="postal-code">L1W 2S2</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (416) 906-4260</div>
-						<div class="website"><a href="//durham.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
+				<?php 
+				    $args = array( 'post_type' => 'location', 'orderby' => 'title', 'order' => 'ASC', 'posts_per_page' => -1 );
+				    $loop = new WP_Query( $args );
+				    while ( $loop->have_posts() ) : $loop->the_post();
+				
+				    $state = types_render_field("location_state", array("raw"=>"true"));
+				    $name = types_render_field("location_name", array("raw"=>"true"));
+				    $city = types_render_field("location_city", array("raw"=>"true"));
+				    $postalCode = types_render_field("postal_code", array("raw"=>"true"));
+				    $website = types_render_field("location_website", array("raw"=>"true"));
+				    $phone = types_render_field("location_phone", array("raw"=>"true"));
+				    $serviceAreas = types_render_field("areas_serviced", array("raw"=>"true"));
+				?> 
+				<?php if($state == 'ontario') { ?>
+					<div class="individual-location ontario">
+						<p class="title"><?php echo $name; ?></p>
+						<div class="location">
+							<i class="fa fa-map-marker"></i> <span class="city"><?php echo $city; ?></span>, ON <span class="postal-code"><?php echo $postalCode; ?></span>
+						</div>
+						<div class="info">
+							<div class="phone"><i class="fa fa-phone"></i> <?php echo $phone; ?></div>
+							<div class="website"><a href="//<?php echo $website; ?>" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
+						</div>
+						<hr>
+						<div class="areas">
+							<p class="subtitle">Common Areas Serviced</p>
+							<p><?php echo $servicesAreas; ?></p>
+						</div>
 					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Durham</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Aurora</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Aurora</span>, ON <span class="postal-code">L4G 6K3</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (905) 581-6603</div>
-						<div class="website"><a href="//aurora.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Aurora, Nobleton</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Brantford and Hamilton</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Brantford</span>, ON <span class="postal-code">N3T 5B3</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (226) 777-7155</div>
-						<div class="website"><a href="//brantford-hamilton.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p></p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Burlington</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Burlington</span>, ON <span class="postal-code">L7L</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (905) 296-0360</div>
-						<div class="website"><a href="//burlington.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Burlington</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors East Toronto</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M4S 1J7</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (416) 236-5437</div>
-						<div class="website"><a href="//east-toronto.prepacademytutors.com" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Toronto, Downtown Toronto, East York, Scarborough, Danforth Village, Rosedale, Riverside, Riverdale and surrounding areas</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Kitchener-Waterloo</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Kitchener</span>, ON <span class="postal-code">N2A 2Z6</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (226) 777-8864</div>
-						<div class="website"><a href="//kitchener-waterloo.prepacademytutors.com" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p></p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Markham</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Markham</span>, ON <span class="postal-code">L3P</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (905) 581-6603</div>
-						<div class="website"><a href="//markham.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Markham, Unionville</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Midtown Toronto</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M4S 1A9</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (647) 557-3352</div>
-						<div class="website"><a href="//midtown-toronto.prepacademytutors.com" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Toronto, York</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Mississauga</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Mississauga</span>, ON <span class="postal-code">L4T</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (888) 995-7382</div>
-						<div class="website"><a href="//mississauga.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Mississauga, Milton</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Newmarket</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Newmarket</span>, ON <span class="postal-code">L3Y</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (905) 895-3592</div>
-						<div class="website"><a href="//newmarket.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Newmarket, Tottenham, Stouffville, Bradford, River Drive Park</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of North Toronto</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Toronto</span>, ON <span class="postal-code">M5M 2B1</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (888) 995-7382</div>
-						<div class="website"><a href="//north-toronto.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>North York, Toronto, York</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Oakville</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Oakville</span>, ON <span class="postal-code">L6J 3Z3</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (905) 296-0360</div>
-						<div class="website"><a href="//oakville.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Oakville</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Ottawa</p>
-					<div class="location"><i class="fa fa-map-marker"></i> <span class="city">Ottawa</span>, ON <span class="postal-code">K1L 5B8</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (343) 600-2620</div>
-						<div class="website"><a href="//ottawa.prepacademytutors.com" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>The Glebe, Orleans, New Edinburgh, Westboro, Rockcliffe, Nepean</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Richmond Hill</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Richmond Hill, ON <span class="postal-code">L4B</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (905) 581-6603</div>
-						<div class="website"><a href="//richmond-hill.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Richmond Hill, Thornhill</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of Vaughan</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Vaughan, ON <span class="postal-code">L6A</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (888) 995-7382</div>
-						<div class="website"><a href="//vaughan.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Woodbridge, Vaughan, Thornhill, Concord, Kleinburg</p>
-					</div>
-				</div>
-				<div class="individual-location ontario">
-					<p class="title">Prep Academy Tutors of West Toronto &amp; Etobicoke</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Toronto, ON <span class="postal-code">M6S 3J8</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (647) 361-8102</div>
-						<div class="website"><a href="//west-toronto-etobicoke.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
-					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Etobicoke, York, Toronto</p>
-					</div>
-				</div>
+				<? } ?>
+				<?php endwhile; ?>
+				<?php wp_reset_query(); ?>
 			</div>
 			<div class="list quebec">
 				<h2>Quebec</h2>
-				<div class="individual-location quebec">
-					<p class="title">Prep Academy Tutors Montreal</p>
-					<div class="location"><i class="fa fa-map-marker"></i> Montreal, QC <span class="postal-code">H3G 1C7</span></div>
-					<div class="info">
-						<div class="phone"><i class="fa fa-phone"></i> (450) 915-1100</div>
-						<div class="website"><a href="//montreal.prepacademytutors.com/" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
+				<?php 
+				    $args = array( 'post_type' => 'location', 'orderby' => 'title', 'order' => 'ASC', 'posts_per_page' => -1 );
+				    $loop = new WP_Query( $args );
+				    while ( $loop->have_posts() ) : $loop->the_post();
+				
+				    $state = types_render_field("location_state", array("raw"=>"true"));
+				    $name = types_render_field("location_name", array("raw"=>"true"));
+				    $city = types_render_field("location_city", array("raw"=>"true"));
+				    $postalCode = types_render_field("postal_code", array("raw"=>"true"));
+				    $website = types_render_field("location_website", array("raw"=>"true"));
+				    $phone = types_render_field("location_phone", array("raw"=>"true"));
+				    $serviceAreas = types_render_field("areas_serviced", array("raw"=>"true"));
+				?> 
+				<?php if($state == 'quebec') { ?>
+					<div class="individual-location quebec">
+						<p class="title"><?php echo $name; ?></p>
+						<div class="location">
+							<i class="fa fa-map-marker"></i> <span class="city"><?php echo $city; ?></span>, QC <span class="postal-code"><?php echo $postalCode; ?></span>
+						</div>
+						<div class="info">
+							<div class="phone"><i class="fa fa-phone"></i> <?php echo $phone; ?></div>
+							<div class="website"><a href="//<?php echo $website; ?>" target="_blank"><i class="fa fa-picture-o"></i> Visit Website</a></div>
+						</div>
+						<hr>
+						<div class="areas">
+							<p class="subtitle">Common Areas Serviced</p>
+							<p><?php echo $servicesAreas; ?></p>
+						</div>
 					</div>
-					<hr>
-					<div class="areas">
-						<p class="subtitle">Common Areas Serviced</p>
-						<p>Montreal, Laval, Saint-Laurent, Outremont, Pointe-Claire, Verdun, Pierrefonds, Lasalle and surrounding areas</p>
-					</div>
-				</div>
+				<? } ?>
+				<?php endwhile; ?>
+				<?php wp_reset_query(); ?>
 			</div>
 		</div>
 	</div>
