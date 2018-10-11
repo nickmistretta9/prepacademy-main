@@ -73,7 +73,7 @@ Template Name: Locations Page
 						<hr>
 						<div class="areas">
 							<p class="subtitle">Common Areas Serviced</p>
-							<p><?php echo $servicesAreas; ?></p>
+							<p><?php echo $serviceAreas; ?></p>
 						</div>
 					</div>
 				<? } ?>
@@ -108,7 +108,7 @@ Template Name: Locations Page
 						<hr>
 						<div class="areas">
 							<p class="subtitle">Common Areas Serviced</p>
-							<p><?php echo $servicesAreas; ?></p>
+							<p><?php echo $serviceAreas; ?></p>
 						</div>
 					</div>
 				<? } ?>
